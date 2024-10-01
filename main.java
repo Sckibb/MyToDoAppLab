@@ -49,6 +49,7 @@ public class TodoList {
         TodoList myTodoList = new TodoList(5);
         System.out.println("Add-todo change");
 
+        System.out.println("This is add-date change");
         // Add some todo items
         myTodoList.addTodoItem("Finish Java assignment");
         myTodoList.addTodoItem("Grocery shopping");
