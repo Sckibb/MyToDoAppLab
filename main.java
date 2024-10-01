@@ -47,6 +47,7 @@ public class TodoList {
     public static void main(String[] args) {
         // Create a TodoList object with space for 5 items
         TodoList myTodoList = new TodoList(5);
+        System.out.println("Add-todo change");
 
         // Add some todo items
         myTodoList.addTodoItem("Finish Java assignment");
